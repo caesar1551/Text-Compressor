@@ -24,4 +24,4 @@ g++ decode.cpp
 ```
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/caesar1551/Text-Compressor/blob/master/LICENSE)
