@@ -119,11 +119,11 @@ int main(int argc, char **argv){
 		q.pop();
 		TreeNode* temp2 = q.top();
 		q.pop();
-		TreeNode* temp = new TreeNode(s);
+        	string a = temp1->text + temp2->text;
+		TreeNode* temp = new TreeNode(a);
 		temp->left = temp1;
 		temp->right = temp2;
 		temp->freq = temp1->freq + temp2->freq;
-		temp->text = temp1->text + temp2->text;
 		q.push(temp);
 	}
 	string codes= "";
